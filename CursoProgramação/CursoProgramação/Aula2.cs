@@ -5,12 +5,16 @@ namespace CursoProgramação
     {
         public void ValorPar()
         {
-            int numero = 4;
-            int resultado = 0;
-
-            resultado = numero % 2;
-
-            Console.WriteLine(resultado);
+            Console.WriteLine("informe um valor:");
+            int numero = int.Parse(Console.ReadLine());
+           
+           if (numero % 2 ==0)
+            {
+                Console.WriteLine("PAR");
+           }
+            else  {
+                Console.WritelLine("IMPAR");
+            }
 
 
 
